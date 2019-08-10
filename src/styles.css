@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+body { 
+    line-height: 1.6;
+    font-size: 18px;
+    color: #444;
+    font-family: 'Open Sans', sans-serif;
+}
+
+main {
+    margin: 40px auto;
+    max-width: 300px;
+}/* You can add global styles to this file, and also import other style files */

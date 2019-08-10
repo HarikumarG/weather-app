@@ -1,0 +1,10 @@
+<div class="container">
+    <div class="add">
+        <input id="city" (keyup.enter)="addCity()" type="text" placeholder="Chennai" [(ngModel)]="newCity" [disabled]="searching">
+        <button (click)="addCity()" [disabled]="searching || !newCity">Add</button>
+        <div *ngIf="failed">Could not add the city.</div>
+    </div>
+    <a *ngFor="let city of cityStorage.cities" routerLink="/city/{{city}}">
+        {{city}}
+    </a>
+</div>
