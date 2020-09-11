@@ -1,6 +1,7 @@
 # WeatherApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.1.
+An Angular project which shows the live weather of the places using open weather Api.
 
 ## Development server
 
